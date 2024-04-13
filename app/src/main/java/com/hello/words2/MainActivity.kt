@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             val resultText = binding.tvText.text.toString()
             binding.tvResult.text = resultText
             adapter.add(resultText)
-            //changes, update test for github
+            //changes, update test for github, test again 4/14
         }
     }
 
