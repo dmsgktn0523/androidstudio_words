@@ -16,16 +16,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ContentMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1)
-        binding.tvList.adapter = adapter
-
-        binding.btnGetText.setOnClickListener {
-            val resultText = binding.tvText.text.toString()
-            binding.tvResult.text = resultText
-            adapter.add(resultText)
-            //changes, update test for github, test again 4/14
-        }
+//
+//        adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1)
+//        binding.tvList.adapter = adapter
+//
+//        binding.btnGetText.setOnClickListener {
+//            val resultText = binding.tvText.text.toString()
+//            binding.tvResult.text = resultText
+//            adapter.add(resultText)
+//            //changes, update test for github, test again 4/14
+//        }
     }
 
     override fun onStart() {
