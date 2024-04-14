@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import com.hello.words2.databinding.ActivityAddWordsBinding
 import com.hello.words2.databinding.ContentMainBinding
+import com.hello.words2.databinding.AppBarMainBinding
 import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
